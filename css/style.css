@@ -1,6 +1,27 @@
+ 
+* {
+  margin:50px;
+  padding:50px;
+}
+
+
 .body{
 
 
     background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+h1{
+	color:red;
+	display: block;
+  width:250px;
+  height:230px;
+  transition: transform .8s;
+  margin: 54px auto;
+}
+
+h1:hover{
+
+	transform: scale(2.0); 
 
 }
